@@ -4,6 +4,7 @@ BLACK='\033[0;30m' RED='\033[0;31m' GREEN='\033[0;32m' BROWN='\033[0;33m' BLUE='
 # config
 source ./.env
 LOGPATH=public/data/homev2
+mkdir -p public/data
 echo "$LOGPATH"
 echo "$HEADER"
 echo "" > $LOGPATH && watch -n10 'echo "Time: $(date "+%Y-%m-%d <=> %H:%M:%S sec")" >> '$LOGPATH' && http -v GET http://45.114.84.83:9002/api/irhomev2 '"$HEADER"' | grep "HTTP/" >> '$LOGPATH' && echo "===================" >> '$LOGPATH
