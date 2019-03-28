@@ -1,3 +1,6 @@
+# ir-monitor
+ir-monitor is simple react app to monitor Imagine Radio back-end home api [http://45.114.84.83:9002/api/irhomev2](http://45.114.84.83:9002/api/irhomev2)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -11,6 +14,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `npm run-logger`
+
+Runs the logger<br>
+
+*Need watch for MacOSX*
+
+### `npm make-backup`
+
+Make a log backup at current time<br>
+
+*Main log file will be emptied every time you run-logger*
 
 ### `npm test`
 
