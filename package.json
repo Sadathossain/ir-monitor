@@ -9,7 +9,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=11119 react-scripts start",
     "run-logger": "./runLogger.sh",
     "make-backup": "./makeBackup.sh",
     "build": "react-scripts build",
